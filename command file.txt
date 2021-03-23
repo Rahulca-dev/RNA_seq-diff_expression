@@ -1,0 +1,1 @@
+perl RSDEPi.pl --raw_data {path_to_Sample_files} --o {path_to_output_folder} --gtf {path_to_gene_structure_file[.gtf]} --genome {path_to_reference_genome[.fa]}
