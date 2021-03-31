@@ -30,9 +30,9 @@ if($len == 2)
 	my $fastq2 = "";
 	foreach my $thing (@things) 
 	{	
-		#my $fn = basename($dir."/".$thing);
-		#print "$fn\t$dir/$thing\n";
-		#$file_hash{$fn} = $dir."/".$thing;
+		my $fn = basename($dir."/".$thing);
+		print "$fn\t$dir/$thing\n";
+		$file_hash{$fn} = $dir."/".$thing;
 		if($fastq1 eq "")
 		{
 			$fastq1 = $thing;
